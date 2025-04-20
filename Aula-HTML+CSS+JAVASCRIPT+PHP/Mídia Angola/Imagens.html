@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias Atualizadas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('Tanjiro_Kamado.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            width: 100%;
+            max-width: 400px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .card h2 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 16px;
+            color: #555;
+        }
+        footer {
+            margin-top: 20px;
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+        @media (min-width: 600px) {
+            .card {
+                width: 45%;
+            }
+        }
+        @media (min-width: 1024px) {
+            .card {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Notícias Atualizadas
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://source.unsplash.com/400x250/?technology" alt="Tecnologia">
+            <h2>Tecnologia Avança Rápido</h2>
+            <p>Novas inovações tecnológicas estão mudando a forma como vivemos e trabalhamos.</p>
+        </div>
+      
+        <div class="card">
+            <img src="https://source.unsplash.com/400x250/?politics" alt="Política">
+            <h2>Política Internacional</h2>
+            <p>Líderes mundiais se reúnem para discutir acordos comerciais e desafios globais.</p>
+        </div>
+      
+        <div class="card">
+            <img src="https://source.unsplash.com/400x250/?sports" alt="Esportes">
+            <h2>Esportes: Grandes Conquistas</h2>
+            <p>Atletas alcançam marcos históricos em diversas competições internacionais.</p>
+        </div>
+      
+        <div class="card">
+            <img src="https://source.unsplash.com/400x250/?climate" alt="Meio Ambiente">
+            <h2>Mudanças Climáticas</h2>
+            <p>Especialistas alertam para os impactos do aquecimento global no meio ambiente.</p>
+        </div>
+      
+        <div class="card">
+            <img src="https://source.unsplash.com/400x250/?economy" alt="Economia">
+            <h2>Economia em Crescimento</h2>
+            <p>Mercado financeiro apresenta sinais de recuperação e novas oportunidades de investimento.</p>
+        </div>
+      
+        <div class="card">
+            <img src="https://source.unsplash.com/400x250/?health" alt="Saúde">
+            <h2>Saúde e Bem-estar</h2>
+            <p>Novos estudos destacam a importância da alimentação saudável para a longevidade.</p>
+        </div>
+      
+    </div>
+    <footer>
+        <button style="background-color: brown;text-decoration: none; width: 130px; height: 60px;"><a href="Index.html">Voltar a Página Inicial</a></button>
+            <br>
+        &copy; 2025 Notícias Online
+    </footer>
+</body>
+</html>
